@@ -1,4 +1,148 @@
-.env
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# Ignore Composer dependencies
+/vendor/
+/composer.lock
+
+# Ignore Node.js dependencies
+/node_modules/
+/package-lock.json
+
+# Ignore log files and databases
 *.log
+*.sql
+*.sqlite
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore cache and temporary files
+/cache/
+/tmp/
+/sessions/
+
+# Ignore uploaded media and assets
+/uploads/
+/storage/
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore PHPUnit coverage reports
+/coverage/
+
+# Ignore Composer PHAR
+/composer.phar
+
+# Ignore PHPStorm project files
+.idea/
+*.iml
+
+# Ignore NetBeans project files
+nbproject/private/
+
+# Ignore Eclipse project files
+.settings/
+.project
+.buildpath
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Laravel-specific files (if using Laravel)
+/bootstrap/cache/
+/storage/*.key
+/public/storage
+/public/hot
+/public/js/
+/public/css/
+/public/mix-manifest.json
+
+# Ignore Symfony-specific files (if using Symfony)
+/var/
+/phpunit.xml
+/bin/
+!/bin/console
+!/bin/phpunit
+
+# Ignore WordPress-specific files (if using WordPress)
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/backup-db/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/wp-cache-config.php
+/wp-content/backups/
+/wp-content/backupwordpress-*/
+/wp-content/w3tc-config/
+/wp-content/object-cache.php
+/wp-content/db.php
+/wp-content/debug.log
+/wp-content/mu-plugins/
+/wp-content/blogs.dir/
+/wp-content/updraft/
+/wp-content/backup-db/
+/wp-content/ai1wm-backups/
+/wp-content/plugins/hello.php
+/wp-content/themes/twenty*/
+
+# Ignore Drupal-specific files (if using Drupal)
+/sites/default/files/
+/sites/default/settings.php
+/sites/default/services.yml
+/sites/*/files/
+/sites/*/private/
+/sites/*/tmp/
+/sites/*/settings.local.php
+/sites/*/services.local.yml
+
+# Ignore Magento-specific files (if using Magento)
+/var/
+/pub/static/
+/pub/media/
+/app/etc/env.php
+/app/etc/config.php
+/app/etc/di.xml
+/app/etc/*.lock
+/generated/
+/update/
+/dev/
+/lib/
+/phpserver/
+/setup/
+/var/view_preprocessed/
+/var/cache/
+/var/page_cache/
+/var/session/
+/var/tmp/
+/var/log/
+/var/importexport/
+/var/export/
+/var/import/
+/var/report/
+/var/locks/
+/var/composer_home/
+/var/.htaccess
+/var/cache/*
+/var/log/*
+/var/report/*
+/var/session/*
+/var/view_preprocessed/*
+/pub/media/*
+/pub/static/*
