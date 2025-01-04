@@ -1,0 +1,19 @@
+{
+    "name": "moi/user-app-claude",
+    "autoload": {
+        "psr-4": {
+            "Moi\\UserAppClaude\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MELJOESTEIN",
+            "email": "thierrymemel@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "php": "^8.1",
+        "ext-pdo": "*"
+    }
+}
